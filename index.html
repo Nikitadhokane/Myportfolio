@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    
+    <style>
+       /* Please Add All The Styles Here in the Style Tag */
+       
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+       /* Centered Header */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color:black;
+            color: white;
+        }
+        
+         /* Skills Section */
+        .skills {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           padding: 20px;
+        }
+
+       .skills h2 {
+          align-self: flex-start; 
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 10px; 
+       }
+
+      .skills ul {
+          list-style-type: none;
+          padding: 0;
+          text-align: center; 
+      }
+
+      .skills li {
+         margin: 5px 0;
+     }
+     
+     .skills li:hover {
+            background-color:gray;
+            
+    }
+    
+     .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 15px;
+        }
+        
+         /* About Section */
+        .about {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Projects Section */
+        .project {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        
+        .project-section {
+           padding: 20px;
+        }
+        
+        .projects {
+           flex: 1;
+           padding: 15px;
+           background-color: #fff;
+           border: 1px solid #ddd;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .para {
+          text-align: center;
+        }
+        
+        p {
+           text-align: justify;
+           white-space: normal;
+        }
+        
+         /* Contact Section */
+        .contact {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+        }
+        
+        .contact h2 {
+           margin-bottom: 10px;
+        }
+        
+        .contact button {
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        .contact button:hover {
+            background-color: #45a049;
+        }
+
+        #contact-info {
+           text-align: center;
+           margin-top: 10px;
+       }
+        
+       
+    </style>
+  </head>
+  <body>
+     <!--Please Code HTML tags Here in the Body Tag-->
+     <!--Header-->
+     <header class="header">
+       <h1>My Portfolio!</h1>
+       <p class="para">Miss.Nikita Sharad Dhokane, BE.IT. </p>
+       <p class="para">Web Developer</p>
+    </header>
+    
+    
+    <!--About Section-->
+    <section class="section">
+      <h2>About Me!</h2>
+      <img src="https://github.com/Nikitadhokane/Frontend-And-Backend-Of-Online-Food-Ordering-System-Project/blob/main/Passport%20Image.jpeg?raw=true" 
+      alt="Profile Picture" class="profile-pic" />
+      <p>Hello! Myself Nikita Dhokane. I am From Rahuri, Ahilyanager, Maharashtra.
+      I have Completed My BE in IT field. I'm a passionate web developer with 
+      experience in HTML, CSS, JavaScript, and frameworks like Angular.I enjoy building
+      interactive and visually appealing websites that deliver an excellent user experience.
+      With a strong foundation in front-end development and a growing interest in back-end
+      technologies like Springboot and databases like MySQL, I am always eager to expand my knowledge.
+      I am detail-oriented and love tackling challenges to find efficient,innovative solutions.
+      Beyond coding, I value collaboration and effective communication to bring project ideas to life.
+      I'm excited about opportunities to work on projects that make a positive impact
+      and drive meaningful change!"
+      </p>
+    </section>
+    
+    <!--Skills Section-->
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>DSA</li>
+        <li>Problem Solving</li>
+      </ul>
+      
+    </section>
+    
+    <!--Project Section-->
+    <section class="project-section">
+     <h2>Projects</h2>
+     
+     <div class="project">
+       
+       <div class="projects">
+       <h3>Online Food Ordering System!</h3>
+       
+       <p>"The Project is built using Java with the SpringBoot framework, which is a popular choice
+       for building web applications due to its simplicity and robustness."</p>
+       <p>"The Project involves building an Online Food Ordering System with Angular for front-end,
+        SpringBoot for Backend, and MySQL for Database.The frontend consists of Angular Components,services,HTMLTemplates,and CSS Stylesheets, While the Backend includes SpringBoot Controllers,
+        services, repositories and entities. Together, these Components create a functional web application
+        that allows user to browse food items, place orders, and manage their accounts."</p>
+        
+        <a href="https://github.com/Nikitadhokane/Frontend-And-Backend-Of-Online-Food-Ordering-System-Project/tree/main">View Project</a>
+        </div>
+   
+   
+     
+     <div class="projects">
+       
+    <h3>Novel Game-Theoretic Approach for Cyber Deception</h3>
+    
+    <p>"This project explores a unique application of game theory in cybersecurity, 
+    specifically focusing on cyber deception techniques. It aims to outmaneuver potential
+    attackers by creating a dynamic and deceptive environment that misguides malicious 
+    attempts. Through strategic interactions modeled by game theory, the project enhances
+    cybersecurity defenses, offering innovative ways to protect sensitive information
+    systems from advanced threats."</p>
+    </div>
+    
+    </div>
+      
+    </section>
+    
+    <!--Contact Section-->
+    <section class="contact">
+        <h2>Contact</h2>
+        <button id="show-contact">Show Contact Info</button>
+        <div id="contact-info" style="display: none;">
+            <p>Email: dhokanenikita271@gmail.com</p>
+            <p>Phone: +917218599911</p>
+        </div>
+    </section>
+    
+  </body>
+  <script>
+    
+   document.getElementById("show-contact").addEventListener("click", function() {
+    document.getElementById("contact-info").style.display = "block";
+});
+  </script>
+</html>
