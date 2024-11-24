@@ -20,4 +20,12 @@ Follow these steps to set up the project locally:
 5. In terminal write command git add ./(file name) => git add index.html => for Add the modified file to the staging area
 6. Commit the changes using git commit "message"
 7. Use the git log command to see the list of all commits.
-  
+8. Fork the repository.
+9.Create a new branch git checkout -b <branch name>
+10. Commit your changes using git commit -m "Add description"
+11. Push the changes using git push origin feature-name
+12. Create a pull request detailing the changes we made.
+
+## Screenshots : 
+  ![Screenshot (215)](https://github.com/user-attachments/assets/bea63d17-65c0-4b0e-9fed-351ef68ea932)
+
